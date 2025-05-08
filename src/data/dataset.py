@@ -146,4 +146,3 @@ def load_dataset(root_dir):
         print(f"{cls}: {count} images")
 
     return train_dataset, test_dataset
-    

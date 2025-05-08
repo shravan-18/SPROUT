@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch
+*.pth
+*.pt
+*.tar
+*.pkl
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Datasets
+data/*
+!data/README.md
+
+# Results and logs
+results/
+logs/
+visualizations/*.png
+visualizations/*.pdf
+evaluation_results/
+comparison_results/
+
+# System Files
+.DS_Store
+
+# Environment Files
+.env
