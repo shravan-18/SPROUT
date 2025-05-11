@@ -6,10 +6,6 @@ This repository contains the official implementation of SPROUT, a novel few-shot
 
 SPROUT (Symptom-centric Prototypical Representation Optimization and Uncertainty-aware Tuning) is designed to quickly adapt to new plant diseases with minimal examples. The method combines prototypical networks with an attention-based prototype refinement mechanism that focuses on disease-relevant features.
 
-<p align="center">
-  <img src="visualizations/model_architecture.png" alt="SPROUT Architecture" width="700px"/>
-</p>
-
 ## Key Features
 
 - **Disease-Aware Prototype Refinement**: Optimizes prototypes specifically for plant disease characteristics
