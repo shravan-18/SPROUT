@@ -89,28 +89,3 @@ python experiments/compare_models.py \
 2. **Embedding Network**: Projects features to a lower-dimensional embedding space where semantic relationships between disease symptoms are preserved.
 3. **Prototype Module**: Generates and refines class prototypes using an attention mechanism that focuses on disease-relevant features.
 4. **Classification Head**: Makes predictions based on distances to refined prototypes.
-
-
-## Results
-
-**SPROUT** achieves state-of-the-art performance in few-shot plant leaf disease classification:
-
-| Method      | 1-shot | 5-shot | 10-shot | 
-|-------------|--------|--------|---------|
-| ResNet50    | 42.3%  | 68.7%  | 75.2%   |
-| VGG16       | 39.5%  | 65.8%  | 72.3%   |
-| ViT-B-16    | 47.1%  | 71.4%  | 77.6%   |
-| **SPROUT (Ours)** | **53.8%**  | **76.2%**  | **81.9%**   |
-
-
-## Citation
-
-If you find this code useful for your research, please cite our paper:
-
-```bibtex
-@article{your_surname2023sprout,
-  title={SPROUT: Symptom-centric Prototypical Representation Optimization and Uncertainty-aware Training},
-  author={Your Name and Co-authors},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
-  year={2023}
-}
